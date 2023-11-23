@@ -27,7 +27,7 @@ function App() {
         return <Expenses />
       default: 
         return <Dashboard />
-        
+
     }
   }
 
@@ -36,6 +36,7 @@ function App() {
   },[])
 
   return (
+    
     <AppStyled bg={bg} className="App">
       {orbMemo}
       <MainLayout>
